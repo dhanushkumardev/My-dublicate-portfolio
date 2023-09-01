@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  color: #ededed;
+}
+.good {
+  font-family: "Russo One", sans-serif;
+  color: cornflowerblue;
+}
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 10%;
+  width: 100%;
+  background: transparent;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: #081b29;
+}
+
+.logo {
+  position: fixed;
+  z-index: 100;
+  left: 20px;
+  top: 10px;
+}
+
+.navbar .nav-product {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  color: #ededed;
+  transition: all 0.3s;
+}
+.navbar .nav-product:hover {
+  color: #00abfb;
+}
+.navbar .nav-product.active {
+  color: #00abfb;
+}
+.home {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 0 10%;
+  background-image: url(background.png);
+  background-size: cover;
+}
+.home-content {
+  background-color: rgba(8, 27, 41, 0.9);
+  width: 1000px;
+  padding: 30px;
+  border-radius: 20px;
+}
+img {
+  width: 100px;
+  height: 110px;
+  background-color: #ededed;
+  border-radius: 50%;
+  border: 5px solid #00abfb;
+}
+.name {
+  font-size: 45px;
+}
+
+.home-content h4 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #00abfb;
+}
+.home-content p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.home-content .type {
+  font-size: 20px;
+  font-weight: 600;
+}
+.bx-btn {
+  /* background-color: yellow; */
+  width: 350px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.great {
+  color: bisque;
+}
+.bx-btn a {
+  text-decoration: none;
+  color: #081b29;
+  border: 2px solid #00abfb;
+  background-color: #00abfb;
+  border-radius: 10px;
+  width: 150px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bx-btn a:nth-child(2) {
+  color: #00abfb;
+  background: transparent;
+}
+.home-sci {
+  position: absolute;
+  bottom: 40px;
+}
+.home-sci a {
+  margin: 20px;
+  font-size: 30px;
+  background-color: #00abfb;
+  color: #ededed;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+}
